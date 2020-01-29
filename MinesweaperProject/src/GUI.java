@@ -72,6 +72,9 @@ class Tile extends Button implements EventHandler<ActionEvent> {
 	static int numOfClearedTiles;
 	static int numOfTiles;
 	static boolean firstClick = true;
+	static long score;
+	static long start;
+	static long end;
 
 	boolean locked = false;
 	double imageSize = 30;
